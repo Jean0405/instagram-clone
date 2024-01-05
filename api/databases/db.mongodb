@@ -1,0 +1,5 @@
+use("instagram_db");
+db.createCollection("users");
+db.createCollection("posts");
+db.createCollection("comments");
+db.createCollection("friends_list");
